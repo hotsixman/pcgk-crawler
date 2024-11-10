@@ -1,0 +1,11 @@
+{
+  "name": "pcgk-crawler",
+  "description": "A crawler for pokemoncard.co.kr",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0"
+  }
+}
