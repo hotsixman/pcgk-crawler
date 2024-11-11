@@ -474,7 +474,7 @@ export const GOODS_NAME = [
 ] as const;
 export type GoodsName = typeof GOODS_NAME[number];
 
-export const POKEMON_CARD_TYPE = [
+export const SEARCH_POKEMON_CARD_TYPE = [
     '기본',
     '1진화',
     '2진화',
@@ -492,6 +492,12 @@ export const POKEMON_CARD_TYPE = [
     'BREAK진화',
     '복원'
 ] as const;
+export const POKEMON_CARD_TYPE = [
+    ...SEARCH_POKEMON_CARD_TYPE,
+    'V진화',
+    'V star'
+] as const;
+export type SearchPokemonCardType = typeof SEARCH_POKEMON_CARD_TYPE[number];
 export type PokemonCardType = typeof POKEMON_CARD_TYPE[number];
 
 export const MON_TYPE = [
